@@ -1,0 +1,32 @@
+{
+  "name": "first-node-proj",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/fgmonteiro09/First-Node-Project.git",
+  "author": "Fernando <fernando.gomesrj@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "dev:server": "ts-node-dev --inspect --transpile-only --ignore-watch node_modules src/server.ts"
+  },
+  "dependencies": {
+    "@types/express": "^4.17.13",
+    "date-fns": "^2.25.0",
+    "express": "^4.17.1",
+    "uuidv4": "^6.2.12"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.1.0",
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-import-resolver-typescript": "^2.5.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "prettier": "^2.4.1",
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.4.4"
+  },
+  "editor.codeActionOnSave": {
+    "source.fixAll.eslint": true
+  }
+}
